@@ -1,4 +1,3 @@
-
 :root {
     --background-color:#332417;
     --text-color:#fff;
@@ -383,11 +382,11 @@ margin-right:10px ;
     height: 40px;
   }
   .cap__title{
-    font-size: 30px;
+    font-size: 20px;
   }
   .cap_bg-photo{
-    width: 600px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
   }
   .navigation__list-item{
     font-size: 15px;
@@ -403,7 +402,9 @@ margin-right:10px ;
 .episodes__gallery{
   display: flex;
   flex-wrap: wrap;
-  max-width: 600px;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
 }
 .episodes__gallery-container{
   margin-bottom: 20px;
@@ -419,13 +420,21 @@ margin-right:10px ;
 .film__gallery{
   display: flex;
   flex-wrap: wrap;
-  max-width: 600px;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
 }
 .film__gallery-container{
   margin-bottom: 20px;
 }
+.header__menu-btn{
+  display: none;
+}
+.header__profile-img{
+  display: none;
+}
 .footer__conteiner{
-  font-size: 13px;
+  font-size: 7px;
 
   padding-top: 20px;
   padding-bottom: 20px;
@@ -454,3 +463,4 @@ padding-right: 20px;
 }
 
   
+
