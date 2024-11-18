@@ -1,0 +1,422 @@
+:root {
+    --background-color:#332417;
+    --text-color:#fff;
+    --text-hover-color:#F2690D;
+    --btn-color:#b9510c;
+    --button-hover-color:#b9670f;
+    --border-color:#694730;
+    --text-list-color:#CCA88F;
+    --text-list-hover-color:#fff;
+    --conteiner-color:#4A3321;
+    --gallery--btn-color:#62432c;
+    --gallery--btn-hover-color:#855e3e;
+  }
+ 
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: var(--background-color);
+   
+  }
+  a{
+    text-decoration: none;
+    color: var( --text-list-color);
+  }
+
+  .container {
+    max-width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+  ul{
+    list-style: none;
+ }
+ .header{
+    padding-bottom: 40px;
+ }
+ .header__logo-img{
+    background-image: url(../image/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.header__top{
+    padding-top: 20px;
+}
+.header__menu-title-item{
+     display: flex;
+     margin-right: 149px;
+     align-items: center;
+}
+.header__menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo-title{
+    padding-left: 16px;
+    font-size: 33px;
+    color: var( --text-color);
+}
+.header__menu-link{
+    font-size: 17px;
+    transition: all 80ms;
+}
+.header__menu-link:hover{
+   color: var(--text-color);
+   border-bottom:2px solid var(--text-hover-color);
+}
+.button{
+    background-color: var(--text-hover-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 12px ;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 80ms;
+}
+.button:hover{
+    background-color: var(--button-hover-color);
+}
+  .header__profile-img{
+    background-image: url(../image/photo_profile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .cap_bg-photo{
+    margin: 0 auto;
+    background-image: url(../image/main-bg.jpg);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:30px;
+    width: 1200px;
+    height: 480px;
+
+  }
+  .cap__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cap__title{
+    font-size: 50px;
+    color: var(--text-color);
+  }
+ .navigation{
+  padding-top: 30px;
+ }
+ .navigation__inner{
+  max-width: 560px;
+ }
+  .navigation__list{
+    display: flex;
+    justify-content: space-between;
+
+  }
+.navigation__list-item{
+   color: var(--text-list-color);
+   font-size: 18px;
+   transition: all 80ms;
+   cursor: pointer;
+}
+.navigation__list-item:hover{
+   color: var(--text-list-hover-color);
+   border-bottom: 2px solid;
+}
+.navigation__border{
+  padding-top: 15px;
+  width: 1200px;
+  border-bottom: 2px solid var(   --border-color  );
+}
+.episodes__gallery-list-item-image-demon{
+  background-image: url(../image/demon-salyer.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 170px;
+  
+
+}
+.episodes__gallery-list-item-image-attack{
+  background-image: url(../image/attack--on-titan.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 170px;
+  
+
+}
+.episodes__gallery-list-item-image-academia{
+  background-image: url(../image/My-Hero-Academia.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 170px;
+  
+
+}
+.episodes__gallery-list-item-image-punch{
+  background-image: url(../image/punchtough.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 170px;
+  
+
+
+}
+.episodes__gallery{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.episodes__gallery-container{
+  background-color: var(--conteiner-color);
+  border-radius: 10px;
+  padding: 11px 11px 11px 11px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+
+
+}
+.episodes__gallery-container:hover{
+  transform: scale(110%);
+}
+.title{
+  font-size: 30px;
+  color: var(--text-color);
+  padding-top: 20px;
+  
+}
+.episodes__gallery-list-item-image{
+  border-radius: 10px;
+}
+.episodes__gallery-title{
+  color: var(--text-color);
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.episodes__gallery-text{
+  color: var(--text-list-color);
+  padding-bottom: 10px;
+}
+.gallery_btn{
+width: 208px;
+height: 40px;
+border: none;
+border-radius: 10px ;
+background-color: var(--gallery--btn-color);
+color: var(--text-color);
+
+}
+.gallery_btn:hover{
+  background-color: var(--gallery--btn-hover-color);
+}
+.film__gallery-list-item-image-wonder{
+  background-image: url(../image/wonder-woman-.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 170px;
+}
+.film__gallery-list-item-image-spider{
+  background-image: url(../image/spider-man.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 170px;
+}
+.film__gallery-list-item-image-widow{
+  background-image: url(../image/blac-window.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 170px;
+}
+.film__gallery-list-item-image-iron{
+  background-image: url(../image/iron-man.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 260px;
+  height: 170px;
+}
+
+.film__gallery{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.film__gallery-container{
+  background-color: var(--conteiner-color);
+  border-radius: 10px;
+  padding: 11px 11px 11px 11px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+
+
+}
+.title{
+  font-size: 30px;
+  color: var(--text-color);
+  padding-top: 20px;
+  
+}
+.film__gallery-list-item-image{
+  border-radius: 10px;
+}
+.film__gallery-title{
+  color: var(--text-color);
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.film__gallery-text{
+  color: var(--text-list-color);
+  padding-bottom: 10px;
+}
+.film__gallery-container:hover{
+  transform: scale(110%);
+}
+.footer__conteiner{
+  margin-top: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--conteiner-color);
+padding-left: 200px ;
+padding-right: 200px;
+color: var(--text-list-color);
+cursor: pointer;
+}
+.footer__list-text:hover{
+  color: var(--text-list-hover-color);
+  transform: scale(125%);
+}
+@media screen and (max-width: 1279px) {
+  .header__logo-title{
+    font-size: 25px;
+margin-right:10px ;
+  }
+  .header__logo-img{
+    width: 23px;
+    height: 23px;
+  }
+ 
+
+}
+@media screen and (max-width: 769px){
+  .header__logo-title{
+    font-size: 25px;
+    margin: 0 ;
+  }
+  .header__menu-btn{
+    width: 75px;
+    height: 40px;
+  }
+  .cap__title{
+    font-size: 30px;
+  }
+  .cap_bg-photo{
+    width: 600px;
+    height: 300px;
+  }
+  .navigation__list-item{
+    font-size: 15px;
+  }
+.episodes__title{
+  font-size: 25px;
+}
+.episodes__inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.episodes__gallery{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+.episodes__gallery-container{
+  margin-bottom: 20px;
+}
+.film__title{
+  font-size: 25px;
+}
+.film__inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.film__gallery{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+.film__gallery-container{
+  margin-bottom: 20px;
+}
+.footer__conteiner{
+  font-size: 13px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+padding-right: 20px;
+}
+.footer__list-text:hover{
+  color: var(--text-list-hover-color);
+  transform: scale(107%);
+}
+}
+@media screen and (max-width: 1110px)
+{
+  .header__menu-link-naruto{
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px)
+{
+  .header__menu-link-slayer{
+    display: none;
+  }
+}
+@media screen and (max-width: 850px)
+{
+  .header__menu-link-titan{
+    display: none;
+  }
+}
+
+  
