@@ -141,7 +141,7 @@
 }
 .navigation__border{
   padding-top: 15px;
-  width: 1200px;
+  
   border-bottom: 2px solid var(   --border-color  );
 }
 .episodes__gallery-list-item-image-demon{
@@ -463,6 +463,7 @@ padding-right: 20px;
 }
 
   
+
 
 
 
